@@ -23,6 +23,7 @@
 		E02632AC2CBF5A12000D4CBF /* MessageSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632AB2CBF5A12000D4CBF /* MessageSender.swift */; };
 		E02632AE2CBF6061000D4CBF /* SendNoManager.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632AD2CBF6061000D4CBF /* SendNoManager.swift .swift */; };
 		E02632B02CBF74B5000D4CBF /* MessageScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632AF2CBF74B5000D4CBF /* MessageScheduler.swift */; };
+		E02F8C9E2EC1E3E3006A0CF0 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = E02F8C9D2EC1E3D7006A0CF0 /* test.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		E02632AB2CBF5A12000D4CBF /* MessageSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSender.swift; sourceTree = "<group>"; };
 		E02632AD2CBF6061000D4CBF /* SendNoManager.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SendNoManager.swift .swift"; sourceTree = "<group>"; };
 		E02632AF2CBF74B5000D4CBF /* MessageScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScheduler.swift; sourceTree = "<group>"; };
+		E02F8C9D2EC1E3D7006A0CF0 /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				E02632A52CBE593A000D4CBF /* SendSetting1View.swift */,
 				E02632A72CBE5946000D4CBF /* SendSetting2View.swift */,
 				E02632782CBE2657000D4CBF /* Assets.xcassets */,
+				E02F8C9D2EC1E3D7006A0CF0 /* test.txt */,
 				E026327A2CBE2657000D4CBF /* FAXTimer.entitlements */,
 				E026327B2CBE2657000D4CBF /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E026327D2CBE2657000D4CBF /* Preview Assets.xcassets in Resources */,
+				E02F8C9E2EC1E3E3006A0CF0 /* test.txt in Resources */,
 				E02632792CBE2657000D4CBF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
