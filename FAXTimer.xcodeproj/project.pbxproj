@@ -14,6 +14,15 @@
 		E02632872CBE2657000D4CBF /* FAXTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632862CBE2657000D4CBF /* FAXTimerTests.swift */; };
 		E02632912CBE2657000D4CBF /* FAXTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632902CBE2657000D4CBF /* FAXTimerUITests.swift */; };
 		E02632932CBE2657000D4CBF /* FAXTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632922CBE2657000D4CBF /* FAXTimerUITestsLaunchTests.swift */; };
+		E02632A02CBE54B3000D4CBF /* EmployeeDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E026329F2CBE54B3000D4CBF /* EmployeeDataFetcher.swift */; };
+		E02632A22CBE54F9000D4CBF /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632A12CBE54F9000D4CBF /* AppData.swift */; };
+		E02632A42CBE58E2000D4CBF /* MemberSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632A32CBE58E2000D4CBF /* MemberSettingsView.swift */; };
+		E02632A62CBE593A000D4CBF /* SendSetting1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632A52CBE593A000D4CBF /* SendSetting1View.swift */; };
+		E02632A82CBE5946000D4CBF /* SendSetting2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632A72CBE5946000D4CBF /* SendSetting2View.swift */; };
+		E02632AA2CBF5450000D4CBF /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632A92CBF5450000D4CBF /* SettingsManager.swift */; };
+		E02632AC2CBF5A12000D4CBF /* MessageSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632AB2CBF5A12000D4CBF /* MessageSender.swift */; };
+		E02632AE2CBF6061000D4CBF /* SendNoManager.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632AD2CBF6061000D4CBF /* SendNoManager.swift .swift */; };
+		E02632B02CBF74B5000D4CBF /* MessageScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02632AF2CBF74B5000D4CBF /* MessageScheduler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,15 @@
 		E026328C2CBE2657000D4CBF /* FAXTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAXTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02632902CBE2657000D4CBF /* FAXTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAXTimerUITests.swift; sourceTree = "<group>"; };
 		E02632922CBE2657000D4CBF /* FAXTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAXTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E026329F2CBE54B3000D4CBF /* EmployeeDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataFetcher.swift; sourceTree = "<group>"; };
+		E02632A12CBE54F9000D4CBF /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		E02632A32CBE58E2000D4CBF /* MemberSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberSettingsView.swift; sourceTree = "<group>"; };
+		E02632A52CBE593A000D4CBF /* SendSetting1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendSetting1View.swift; sourceTree = "<group>"; };
+		E02632A72CBE5946000D4CBF /* SendSetting2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendSetting2View.swift; sourceTree = "<group>"; };
+		E02632A92CBF5450000D4CBF /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		E02632AB2CBF5A12000D4CBF /* MessageSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSender.swift; sourceTree = "<group>"; };
+		E02632AD2CBF6061000D4CBF /* SendNoManager.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SendNoManager.swift .swift"; sourceTree = "<group>"; };
+		E02632AF2CBF74B5000D4CBF /* MessageScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScheduler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,15 @@
 			children = (
 				E02632742CBE2656000D4CBF /* FAXTimerApp.swift */,
 				E02632762CBE2656000D4CBF /* ContentView.swift */,
+				E02632AD2CBF6061000D4CBF /* SendNoManager.swift .swift */,
+				E026329F2CBE54B3000D4CBF /* EmployeeDataFetcher.swift */,
+				E02632AF2CBF74B5000D4CBF /* MessageScheduler.swift */,
+				E02632A92CBF5450000D4CBF /* SettingsManager.swift */,
+				E02632AB2CBF5A12000D4CBF /* MessageSender.swift */,
+				E02632A12CBE54F9000D4CBF /* AppData.swift */,
+				E02632A32CBE58E2000D4CBF /* MemberSettingsView.swift */,
+				E02632A52CBE593A000D4CBF /* SendSetting1View.swift */,
+				E02632A72CBE5946000D4CBF /* SendSetting2View.swift */,
 				E02632782CBE2657000D4CBF /* Assets.xcassets */,
 				E026327A2CBE2657000D4CBF /* FAXTimer.entitlements */,
 				E026327B2CBE2657000D4CBF /* Preview Content */,
@@ -259,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02632B02CBF74B5000D4CBF /* MessageScheduler.swift in Sources */,
 				E02632772CBE2656000D4CBF /* ContentView.swift in Sources */,
+				E02632AC2CBF5A12000D4CBF /* MessageSender.swift in Sources */,
+				E02632A62CBE593A000D4CBF /* SendSetting1View.swift in Sources */,
+				E02632A02CBE54B3000D4CBF /* EmployeeDataFetcher.swift in Sources */,
+				E02632AE2CBF6061000D4CBF /* SendNoManager.swift .swift in Sources */,
 				E02632752CBE2656000D4CBF /* FAXTimerApp.swift in Sources */,
+				E02632AA2CBF5450000D4CBF /* SettingsManager.swift in Sources */,
+				E02632A22CBE54F9000D4CBF /* AppData.swift in Sources */,
+				E02632A82CBE5946000D4CBF /* SendSetting2View.swift in Sources */,
+				E02632A42CBE58E2000D4CBF /* MemberSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
